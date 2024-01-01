@@ -66,17 +66,16 @@ in_alive = """
 <b>   dc_id :</b> <code>{}</code>
 <b>   ping_dc :</b> <code>{} ms</code>
 <b>   version :</b> <code>{}</code>
-<b>   nayalibs :</b> <code>{}</code>
 <b>   uptime :</b> <code>{}</code>"""
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir saka** 😁",
+    "**Maaf ka habis nemenin mass saka** 🥺",
+    "**Maaf ka habis disuruh mass saka** 🥺🙏🏻",
+    "**Hadir saka Sayang** 😘",
+    "**Hadir saka Akuuuuhhh** ☺️",
+    "**Hadir saka brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
