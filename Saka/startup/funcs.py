@@ -45,12 +45,12 @@ async def ajg():
     from .. import saka_bot
 
     try:
-        await saka_bot(JoinChannelRequest("alsuport"))
+        await saka_bot(JoinChannelRequest("@alsuport"))
         #await saka_bot(JoinChannelRequest("kontenfilm"))
         #await saka_bot(JoinChannelRequest("abtnaaa"))
     except rpcerrorlist.ChannelPrivateError:
         print(
-            "Lu Di Ban Di @alsuport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu Sonoh.."
+            "Lu Di Ban Di @KynanSupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu Sonoh.."
         )
         sys.exit(1)
 
@@ -440,7 +440,7 @@ async def ready():
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**Saka-Userbot has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(saka_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @KynanSupport\n╼┅━━━━━━━━━━━┅╾"
+        MSG = f"**Saka-Userbot has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(saka_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @alsuport\n╼┅━━━━━━━━━━━┅╾"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
