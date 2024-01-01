@@ -45,12 +45,12 @@ async def ajg():
     from .. import saka_bot
 
     try:
-        await saka_bot(JoinChannelRequest("kynansupport"))
+        await saka_bot(JoinChannelRequest("alsuport"))
         #await saka_bot(JoinChannelRequest("kontenfilm"))
         #await saka_bot(JoinChannelRequest("abtnaaa"))
     except rpcerrorlist.ChannelPrivateError:
         print(
-            "Lu Di Ban Di @KynanSupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu Sonoh.."
+            "Lu Di Ban Di @alsuport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu Sonoh.."
         )
         sys.exit(1)
 
