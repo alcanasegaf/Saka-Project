@@ -10,4 +10,4 @@ RUN bash installer.sh
 WORKDIR "/root/alcanasegaf"
 
 # start the bot.
-CMD ["bash", "start"]
+CMD ["python3", "-m", "Saka"]
