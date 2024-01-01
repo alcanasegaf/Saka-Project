@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/alcanasegaf/Saka-Userbot.git"
+REPO="https://github.com/alcanasegaf/Saka-Project.git"
 DIR="/root/alcanasegaf"
 
 spinner(){
