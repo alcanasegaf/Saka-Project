@@ -34,7 +34,7 @@ DEVS = [
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
 
-AYRA_IMAGES = ["https://graph.org/file/60408fea8439e6702674d.jpg"]
+AYRA_IMAGES = ["https://graph.org/file/0cd6ec5d0ca63623e7944.jpg"]
 
 stickers = [
     "CAADAQADeAIAAm_BZBQh8owdViocCAI",
