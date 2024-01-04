@@ -82,7 +82,7 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`𝐒𝐚𝐤𝐚 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐦𝐚𝐬𝐬𝐚𝐠𝐞`")
     er = 0
     done = 0
     chat_blacklist = udB.get_key("GBLACKLISTS") or []
